@@ -1,1 +1,60 @@
+# CMOS AND Gate Using 45nm Technology
+
+## 📌 Project Overview
+This project presents the design and simulation of a **2-input CMOS AND Gate**
+implemented at the **transistor level** using **45nm technology** in
+**Cadence Virtuoso**.
+
+The AND gate outputs logic HIGH (1) only when **both inputs are HIGH**.
+
+---
+
+## ⚙️ Tools & Technology
+- **EDA Tool**: Cadence Virtuoso
+- **Technology Node**: 45nm CMOS
+- **Design Style**: Static CMOS
+- **Simulator**: Spectre
+
+---
+
+## 🔌 Circuit Description
+- AND gate implemented using **NAND gate followed by an inverter**
+- PMOS transistors form the pull-up network
+- NMOS transistors form the pull-down network
+- Designed for low power and reliable operation
+
+---
+
+## 🧪 Simulation
+- Transient analysis performed
+- All input combinations verified
+- Output waveform matches AND gate truth table
+
+---
+
+## 📊 Truth Table
+
+| A | B | Output |
+|---|---|--------|
+| 0 | 0 |   0    |
+| 0 | 1 |   0    |
+| 1 | 0 |   0    |
+| 1 | 1 |   1    |
+
+---
+
+## 🎯 Conclusion
+The CMOS AND gate designed using **45nm technology** shows correct
+functionality with optimized performance, suitable for modern VLSI systems.
+
+---
+
+## 👩‍💻 Author
+**Vengala Dhana Lakshmi**  
+B.Tech ECE | VLSI Enthusiast
+
+---
+
+## ⭐ Acknowledgement
+Thanks to Cadence Virtuoso and academic mentors for their guidance.
 
